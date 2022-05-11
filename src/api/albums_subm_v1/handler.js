@@ -78,7 +78,7 @@ class AlbumsHandler_subm_v1 {
     this._validator.validateAlbumCover(cover.hapi.headers);
 
     const filename = await this._storageService_subm_v3.writeFile(cover, cover.hapi);
-    const fileLocation = `http://${process.env.HOST}:${process.env.PORT}/albums/covers/${filename}`;
+    const fileLocation = `http://${process.env.HOST}:${process.env.PORT}/albums_subm_v1/file/covers/${filename}`;
 
     await this._service.postAlbumCoverById(id, fileLocation);
 
