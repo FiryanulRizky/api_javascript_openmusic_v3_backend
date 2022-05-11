@@ -55,7 +55,7 @@ const init = async () => {
   const playlistsService_subm_v2 = new PlaylistsService_subm_v2(collaborationsService_subm_v2);
   const authenticationsService_subm_v2 = new AuthenticationsService_subm_v2();
   const usersService_subm_v2 = new UsersService_subm_v2();
-  const storageService_subm_v3 = new StorageService_subm_v3(path.resolve(__dirname, 'api/albums/file/covers'));
+  const storageService_subm_v3 = new StorageService_subm_v3(path.resolve(__dirname, 'api/albums_subm_v1/file/covers'));
 
   const server = Hapi.server({
     port: process.env.PORT,
