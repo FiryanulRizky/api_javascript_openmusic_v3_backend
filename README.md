@@ -3,7 +3,7 @@
 # Studi Kasus
 - Mengembangkan restful api untuk aplikasi OpenMusic dari sisi backend.
 - Api ini telah dikembangkan secara berangsur dan saat ini sudah dalam versi akhir yang memiliki fitur menambahkan lagu, membuat playlist, memasukan lagu ke dalam playlist, autentikasi dan autorisasi user, kolaborasi/membagikan playlist kepada pengguna lain, fitur server-side caching untuk mengurangi pekerjaan database, ekspor daftar lagu yang berada di playlist, dan upload gambar untuk sampul album.
-- Pengembangan versi sebelumnya bisa cek disini : [Versi 1](https://github.com/FiryanulRizky/api_javascript_openmusic_v1_backend), [Versi 2](https://github.com/FiryanulRizky/api_javascript_openmusic_v1_backend)
+- Pengembangan versi sebelumnya bisa cek disini : [Versi 1](https://github.com/FiryanulRizky/api_javascript_openmusic_v1_backend), [Versi 2](https://github.com/FiryanulRizky/api_javascript_openmusic_v2_backend)
 
 # Tools Development
 - Node.js v17.2.0
